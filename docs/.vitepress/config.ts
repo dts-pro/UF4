@@ -2,8 +2,8 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   lang: 'ca-ES',
-  title: 'Fonaments de Programació',
-  description: 'Unitat Formativa 01 - Fonaments de Programació',
+  title: 'Bucles',
+  description: 'Unitat Formativa 04 - Bucles',
   base: '/vitepress-template/',
   outDir: './dist',
   head: [
@@ -13,33 +13,40 @@ export default defineConfig({
     ['link', { rel: 'icon', type: 'image/png', href: '/img/logo.png' }]
   ],
   themeConfig: {
-    siteTitle: 'Fonaments de Programació',
+    siteTitle: 'Bucles',
     logo: '/img/logo.png',
     nav: [
       { text: '🏠 Inici', link: '/' },
       { text: '📋 Objectius', link: '/objectius' },
       { text: '📚 Continguts', items: [
-        { text: '1. Introducció', link: '/introduccio' },
-        { text: '2. Algoritme', link: '/algoritme' },
-        { text: '3. Cicle de Vida', link: '/cicle-vida' },
-        { text: "4. Representació d'Algoritmes", link: '/algoritmes' },
-        { text: "5. Elements d'un Programa", link: '/elements' }
+        { text: '1. Introducció', link: '/1-introduccio' },
+        { text: '2. Bucle for', link: '/2-for' },
+        { text: '3. Bucle while', link: '/3-while' },
+        { text: '4. Bucle do-while', link: '/4-do-while' },
+        { text: 'Exemples', link: '/5-exemples' },
+        { text: 'Exercicis', link: '/6-exercicis' },
+      ]},
+      { text: '📚 Continguts addicionals', items: [
+        { text: 'Mètode Math.random()', link: '/7-add_random' },
       ]}
     ],
     sidebar: [
       {
         text: '📚 Continguts',
         items: [
-          { text: '📋 Objectius', link: '/objectius' },
-          { text: '📚 1. Introducció', link: '/introduccio' },
-          { text: '🔄 2. Algoritme', link: '/algoritme' },
-          { text: '⚡ 3. Cicle de Vida', link: '/cicle-vida' },
-          { text: "📊 4. Representació d'Algoritmes", link: '/algoritmes' },
-          { text: "🔧 5. Elements d'un Programa", link: '/elements' },
-          { text: '<img src="/vitepress-template/img/logo-gva.png" class="logo-anim" style="vertical-align:middle; height:150px; margin-top:100px;">', link: '' },
-          { text: '<img src="/vitepress-template/img/logo-centro.png" class="logo-anim" style="vertical-align:middle; height:150px;">', link: '' }
+          { text: '1. Introducció', link: '/1-introduccio' },
+          { text: '2. Bucle for', link: '/2-for' },
+          { text: '3. Bucle while', link: '/3-while' },
+          { text: '4. Bucle do-while', link: '/4-do-while' },
+          { text: 'Exemples', link: '/5-exemples' },
+          { text: 'Exercicis', link: '/6-exercicis' },
         ]
-      }
+      },
+      { text: '📚 Continguts addicionals', items: [
+        { text: 'Mètode Math.random()', link: '/7-add_random' },
+        { text: '<img src="/vitepress-template/img/logo-gva.png" class="logo-anim" style="vertical-align:middle; height:150px; margin-top:100px;">', link: '' },
+        { text: '<img src="/vitepress-template/img/logo-centro.png" class="logo-anim" style="vertical-align:middle; height:150px;">', link: '' }
+      ]}
     ],
     socialLinks: [
       { icon: 'github', link: '' }
