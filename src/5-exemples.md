@@ -4,13 +4,16 @@
 
 Programa que mostre per pantalla els 20 primers nombres naturals (1, 2, 3… 20).
 
-### 5.1.1. Diagrama de flux
+:::: tabs
+=== Java
+
+::: tabs
+== Diagrama de flux
 
 ![Exemple 1](/uf4/exemple1.jpg)
 
-### 5.1.2. Codi
+== Codi
 
-::: details Codi
 ```java
 public class Exercici1{
     public static  void main(String[] args){
@@ -24,25 +27,28 @@ public class Exercici1{
 }
 ```
 
-:::
-
-### 5.1.3. Eixida
+== Eixida
 
 ```plaintext
 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
 ```
 
+:::
+::::
+
 ## 5.2. Exemple 2
 
 Programa que suma independentment els parells i els imparells dels números compresos entre 100 i 200.
 
-### 5.2.1. Diagrama de flux
+:::: tabs
+=== Java
+
+::: tabs
+== Diagrama de flux
 
 ![Bucle do-while](/uf4/Exemple2.jpg)
 
-### 5.2.2. Codi
-
-::: details Codi
+== Codi
 
 ```java
 public class Exercici2{
@@ -65,14 +71,15 @@ public class Exercici2{
 }
 ```
 
-:::
-
-### 5.2.3. Eixida
+== Eixida
 
 ```plaintext
 La suma total dels parells és: 7650
 La suma total dels imparells és: 7500
 ```
+
+:::
+::::
 
 ## 5.3. Exemple 3
 
@@ -80,7 +87,11 @@ Mostra els números múltiples de 5 de 0 a 100 utilitzant el bucle for.
 
 ### 5.3.1. Codi
 
-::: details Codi
+:::: tabs
+=== Java
+
+::: tabs
+== Codi
 
 ```java
 public class UF04Exemple01 {
@@ -92,21 +103,24 @@ public class UF04Exemple01 {
 }
 ```
 
-:::
-
-### 5.3.2. Eixida
+== Eixida
 
 ```plaintext
 0 5 10 15 20 25 30 35 40 45 50 55 60 65 70 75 80 85 90 95 100
 ```
 
+:::
+::::
+
 ## 5.4. Exemple 4
 
 Mostra els números del 320 al 160, contant de 20 en 20 cap a baix utilitzant el bucle while.
 
-### 5.4.1. Codi
+:::: tabs
+=== Java
 
-::: details Codi
+::: tabs
+== Codi
 
 ```java
 public class UF05Exemple02 {
@@ -122,9 +136,7 @@ public class UF05Exemple02 {
 }
 ```
 
-:::
-
-### 5.4.2. Eixida
+== Eixida
 
 ```plaintext
 320
@@ -138,13 +150,18 @@ public class UF05Exemple02 {
 160
 ```
 
+:::
+::::
+
 ## 5.5. Exemple 5
 
 Realitza un programa que demane un número per teclat i després ens mostre el número al revés.
 
-### 5.5.1. Codi
+:::: tabs
+=== Java
 
-::: details Codi
+::: tabs
+== Codi
 
 ```java
 import java.util.Scanner;
@@ -175,22 +192,25 @@ public class UF05Exemple03 {
 }
 ```
 
-:::
-
-### 5.5.2. Eixida
+== Eixida
 
 ```plaintext
 Introdueix un número enter: 12345
 El número 12345 girat del revés és 54321
 ```
 
+:::
+::::
+
 ## 5.6. Exemple 6
 
 Crea un programa que pensa un número a l'atzar entre 0 i 100. L'usuari ha de endevinar-ho i té per a això 5 oportunitats. Després de cada intent fallit, el programa dirà quantes oportunitats queden i si el nombre introduït és menor o major que el que ha pensat.
 
-### 5.6.1. Codi
+:::: tabs
+=== Java
 
-::: details Codi
+::: tabs
+== Codi
 
 ```java
 import java.util.Scanner;
@@ -236,9 +256,7 @@ public class UF04Exemple04{
 }
 ```
 
-:::
-
-### 5.6.2. Eixida
+== Eixida
 
 ```plaintext
 Estic pensant un número entre el 0 i el 100. Tens 5 oportunitats per a endivinar-lo.
@@ -252,9 +270,13 @@ Introdueix un número: 85
 Enhorabona! Has encertat!
 ```
 
+:::
+::::
+
 ## Exemple do-while
 
-::: details Codi
+::: tabs
+== Java
 
 ```java
 package ejemplomenuopciones;

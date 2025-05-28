@@ -16,7 +16,8 @@ Hem vist com generar números aleatoris amb i sense decimals i en diferents inte
 
 Veiem un exemple:
 
-::: details Codi
+::: tabs
+== Java
 
 ```java
 package curs.uf05exemples;

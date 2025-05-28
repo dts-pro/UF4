@@ -4,7 +4,7 @@ El bucle for es codifica de la següent forma:
 
 |Codi| Diagrama de flux|
 |----|-----------------|
-|**for (inicialització;condició;increment){ <br> bloc d'accions; <br> }**| ![Bucle for](/uf4/bucle_for.jpg)|
+|**for (inicialització;condició;increment){ <br>bloc d'accions; <br> }**| ![Bucle for](/uf4/bucle_for.jpg)|
 
 La clàusula **inicialització** és una instrucció que s'executa una sola vegada a l'inici del bucle, normalment per a inicialitzar un comptador. Per exemple **int i = 1;**
 
@@ -12,21 +12,33 @@ La clàusula **condició** és una expressió lògica que s'avalua a l'inici de 
 
 La clàusula **increment** és una instrucció que s'executa al final de cada iteració del bucle (després del bloc d'instruccions). Generalment s'utilitza per a incrementar o decrementar el comptador. Per exemple i++; (incrementar i en 1).
 
->**Exemple 1**: Bucle que mostra per pantalla els nombres naturals de l'1 al 10:
->::: details Codi
+>***Exemple 1***:  
+>Bucle que mostra per pantalla els nombres naturals de l'1 al 10:
+>::: tabs
+>
+>== Java
+>
 >```java
 >for (int i = 1; i <= 10 ; i++) {  
->System.out.println(i);
+>   System.out.println(i);
 >}
 >```
+>
 >:::
 >
 >- En la inicialització utilitzem **int i=1** per a crear la variable i amb un valor inicial de 1.
 >- La condició **i<=10** indica que el bucle ha de repetir-se mentre i siga menor o igual a 10.
 >- L'actualització **i++** indica que, al final de cada iteració, i ha d'incrementar-se en 1.
 
->**Exemple 2**: Programa que mostra els nombres naturals (1,2,3,4,5,6,...) fins a un número introduït per teclat:
->:::details Codi
+>***Exemple 2***:  
+>Programa que mostra els nombres naturals (1,2,3,4,5,6,...) fins a un número introduït per teclat:
+>
+>:::: tabs
+>=== Java
+>
+>::: tabs
+>== Codi
+>
 >```java
 >public static void main(String[] args){
 >   Scanner sc = new Scanner(System.in);
@@ -37,9 +49,8 @@ La clàusula **increment** és una instrucció que s'executa al final de cada it
 >       System.out.println("Número: " + i);
 >}
 >```
->:::
 >
->L'eixida és:
+>== Eixida
 >
 >```plaintext
 >Introdueix el número màxim: 5
@@ -49,3 +60,6 @@ La clàusula **increment** és una instrucció que s'executa al final de cada it
 >Número 4
 >Número 5
 >```
+>
+>:::
+>::::

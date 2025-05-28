@@ -10,7 +10,13 @@ En aquesta mena de bucle, el bloc d'instruccions s'executa sempre almenys una ve
 moment, faça que ‘condición’ s'avalue a ‘false’. Si no el bucle no acabaria mai!
 
 >**Exemple 4**: El mateix exemple 2 d’abans, fet amb un bucle do-while seria:
->::: details Codi
+>
+>:::: tabs
+>=== Java
+>
+>::: tabs
+>== Codi
+>
 >```java
 >public static void main(String[] args){
 >   Scanner sc = new Scanner(System.in);
@@ -25,9 +31,8 @@ moment, faça que ‘condición’ s'avalue a ‘false’. Si no el bucle no aca
 >   } while (cont <= max)
 >}
 >```
->:::
 >
->L'eixida és:
+>== Eixida
 >
 >```plaintext
 >Introdueix el número màxim: 5
@@ -37,3 +42,6 @@ moment, faça que ‘condición’ s'avalue a ‘false’. Si no el bucle no aca
 >Número 4
 >Número 5
 >```
+>
+>:::
+>::::

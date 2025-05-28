@@ -11,7 +11,13 @@ El bloc d'instruccions s'executa mentre es compleix una condició (mentre condic
 El mateix exemple 2 d’abans, fet amb un bucle while seria:
 
 >**Exemple 3**:
->::: details Codi
+>
+>:::: tabs
+>=== Java
+>
+>::: tabs
+>== Codi
+>
 >```java
 >public static void main(String[] args){
 >   Scanner sc = new Scanner(System.in);
@@ -25,9 +31,8 @@ El mateix exemple 2 d’abans, fet amb un bucle while seria:
 >   }
 >}
 >```
->:::
 >
->L'eixida és:
+>== Eixida
 >
 >```plaintext
 >Introdueix el número màxim: 5
@@ -37,3 +42,6 @@ El mateix exemple 2 d’abans, fet amb un bucle while seria:
 >Número 4
 >Número 5
 >```
+>
+>:::
+>::::
