@@ -2,7 +2,7 @@
 
 |Codi| Diagrama de flux|
 |----|-----------------|
-|**do{ <br> bloc d'accions; <br> } while (condició)**| ![Bucle do-while](uf4/bucle_do_while.jpg)|
+|**do{ <br> bloc d'accions; <br> } while (condició)**| ![Bucle do-while](/uf4/bucle_do_while.jpg)|
 
 En aquesta mena de bucle, el bloc d'instruccions s'executa sempre almenys una vegada, i aqueix bloc d'instruccions s'executarà mentre **condició** s'avalue a true.
 

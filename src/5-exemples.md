@@ -6,7 +6,7 @@ Programa que mostre per pantalla els 20 primers nombres naturals (1, 2, 3… 20)
 
 ### 5.1.1. Diagrama de flux
 
-![Exemple 1](uf4/exemple1.jpg)
+![Exemple 1](/uf4/exemple1.jpg)
 
 ### 5.1.2. Codi
 
@@ -38,7 +38,7 @@ Programa que suma independentment els parells i els imparells dels números comp
 
 ### 5.2.1. Diagrama de flux
 
-![Bucle do-while](uf4/Exemple2.jpg)
+![Bucle do-while](/uf4/Exemple2.jpg)
 
 ### 5.2.2. Codi
 

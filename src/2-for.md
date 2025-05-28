@@ -4,7 +4,7 @@ El bucle for es codifica de la següent forma:
 
 |Codi| Diagrama de flux|
 |----|-----------------|
-|**for (inicialització;condició;increment){ <br> bloc d'accions; <br> }**| ![Bucle for](uf4/bucle_for.jpg)|
+|**for (inicialització;condició;increment){ <br> bloc d'accions; <br> }**| ![Bucle for](/uf4/bucle_for.jpg)|
 
 La clàusula **inicialització** és una instrucció que s'executa una sola vegada a l'inici del bucle, normalment per a inicialitzar un comptador. Per exemple **int i = 1;**
 
