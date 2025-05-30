@@ -2,13 +2,30 @@
 
 El bucle while es codifica de la següent forma: 
 
-|Codi| Diagrama de flux|
-|----|-----------------|
-|**while (condició) { <br> bloc d'accions; <br> }**| ![Bucle while](/uf4/bucle_while.jpg)|
+<div style="display: flex; gap: 50px">
+
+<div style="flex: 1; padding: 10px; text-align: justify;">
+
+  ::: tabs
+  == Java
+
+```java
+while (condició) {
+    //bloc d'instruccions
+}
+```
+
+  :::
+
+</div>
+<div style="flex: 0.5; padding: 10px; text-align: justify;">
+
+  ![Bucle while](/uf4/bucle_while.jpg)
+
+</div>
+</div>
 
 El bloc d'instruccions s'executa mentre es compleix una condició (mentre condició s'avalue a true). **La condició es comprova ABANS de començar** a executar per primera vegada el bucle, per la qual cosa si s'avalua a false en la primera iteració, llavors el bloc d'accions no s'executarà cap vegada. El mateix exemple 2 d’abans, fet amb un bucle while seria:
-
-El mateix exemple 2 d’abans, fet amb un bucle while seria:
 
 >**Exemple 3**:
 >

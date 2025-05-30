@@ -1,6 +1,6 @@
 # 1. Introducció
 
-Els bucles són estructures de repetició, blocs d'instruccions que es repeteixen un nombre de vegades mentre es complisca una condició o fins que es complisca una condició. El bloc d'instruccions es trobarà tancat mitjançant claus {........} si existeix més d'una instrucció igual que succeeix en les estructures alternatives (if… else… etc). Existeixen tres construccions per a aquestes estructures de repetició:
+Els bucles són estructures de control que permeten repetir un conjunt d'instruccions diverses vegades. Aquesta repetició es realitza mentre es compleix una determinada condició o fins que es compleix una condició específica, segons el tipus de bucle utilitzat. Si el bloc a repetir conté més d'una instrucció, és habitual agrupar-les mitjançant un delimitador de bloc (com ara claus {} o altres símbols segons el llenguatge).
 
 - `Bucle for`
 - `Bucle while`
@@ -13,4 +13,4 @@ Com a regla general és recomanable:
 - Utilitzar el bucle **`while`** quan no sabem el nombre de vegades que ha de repetir-se el bloc i és possible que no haja d'executar-se cap vegada.
 - Utilitzar el bucle **`do-while`** quan no sabem el nombre de vegades que ha de repetir-se el bloc i deurà executar-se almenys una vegada.
 
-Aquestes regles són generals i alguns programadors se senten més còmodes utilitzant principalment una d'elles. Amb major o menor esforç, pot utilitzar-se qualsevol de les tres indistintament.
+Aquestes regles són generals i, normalment, s'usarà un tipus o altre en funció de les necessitats. Però cal tindre en compte que, amb major o menor esforç, pot utilitzar-se qualsevol de les tres indistintament.

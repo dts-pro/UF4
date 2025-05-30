@@ -2,9 +2,26 @@
 
 El bucle for es codifica de la següent forma:
 
-|Codi| Diagrama de flux|
-|----|-----------------|
-|**for (inicialització;condició;increment){ <br>bloc d'accions; <br> }**| ![Bucle for](/uf4/bucle_for.jpg)|
+<div style="display: flex; gap: 50px">
+
+<div style="flex: 1; padding: 10px; text-align: justify;">
+
+  ::: tabs
+  == Java
+
+```java
+for(inicialització;condició;increment){
+    //bloc d'instruccions
+}
+```
+
+  :::
+
+</div>
+
+  ![Bucle for](/uf4/bucle_for.jpg)
+
+</div>
 
 La clàusula **inicialització** és una instrucció que s'executa una sola vegada a l'inici del bucle, normalment per a inicialitzar un comptador. Per exemple **int i = 1;**
 
