@@ -11,7 +11,7 @@ El bucle for es codifica de la següent forma:
 
 ```java
 for(inicialització;condició;increment){
-    //bloc d'instruccions;
+    //bloc d'instruccions
 }
 ```
 
